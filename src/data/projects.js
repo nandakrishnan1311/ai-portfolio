@@ -1,0 +1,87 @@
+// ── REPLACE WITH YOUR ACTUAL PROJECTS ──────────────────────────────────────
+export const projects = [
+  {
+    id: 1,
+    title: "Driver Assistance System",
+    subtitle: "Drowsiness Detection & Accidents Detection",
+    description:
+      "A safety system that detects driver drowsiness and fatigue, generates alerts, and sends emergency notifications (including GPS location) during accidents.",
+    tags: ["OpenCV", "Python", "Deep learning models", "Twilio API", "Google Map API",],
+    github: "https://github.com/nandakrishnan1311/Btech-mini-project-",
+    live: null,
+    image: null,                // replace with image path e.g. "/assets/images/projects/neuralchat.png"
+    featured: true,
+    accentColor: "#00FFB2",
+    stats: { accuracy: "High Accuracy", latency: "Low", monitoring: "Continuous" },
+  },
+  {
+    id: 2,
+    title: "Deepfake Detection System",
+    subtitle: "An Intelligent System for Detecting Synthetic Media Using AI",
+    description:
+      "A software system designed to determine whether a video or audio is real or fake using deep learning techniques.",
+    tags: ["Deep learning", "Python", "WAV2VEC2", "Vision Transformers", "TensorFlow","Flask"],
+    github: "https://github.com/nandakrishnan1311/deepfake-detection",
+    live: "https://youtu.be/zbyn3dARv24?si=mvnyRiqgEqT5-Gp3",
+    image: null,
+    featured: true,
+    accentColor: "#7B61FF",
+    stats: { accuracy: "94%", modalities: "Video + Audio", models: "ViT + Wav2Vec2" },
+  },
+  {
+    id: 3,
+    title: "Image generation using stable diffusion & comfy ui",
+    subtitle: "Advanced Generative Image Synthesis using Stable Diffusion and Modular ComfyUI Pipelines",
+    description:
+      "AI-based system for generating high-quality images using the Stable Diffusion model, integrated into a node-based visual interface via ComfyUI.",
+    tags: ["Stable Diffusion,", "ComfyUI", "deep learning"],
+    github: "https://github.com/nandakrishnan1311/techsaksham",
+    live: "https://www.youtube.com/watch?v=Y-Nbj4TJ3ZA",
+    image: null,
+    featured: true,
+    accentColor: "#FF6B6B",
+    stats: { models: "Stable Diffusion", workflows: "20+", images: "5k+" },
+  },
+  {
+    id: 4,
+    title: "Snapfold",
+    subtitle: "A Developer-Centric CLI for Structured Project Serialization and Codebase Portability",
+    description:
+      "Snapfold is a lightweight CLI tool that snapshots your entire project folder into a single structured .txt file — including folder tree and source code — making it easy to share, review, or debug projects.",
+    tags: ["Python", "CLI Tool", "Automation", "File System", "Developer Tools", "Open Source", "PyPI", "Packaging"],
+    github: "https://github.com/nandakrishnan1311/snapfold",
+    live: null,
+    image: null,
+    featured: false,
+    accentColor: "#FFD93D",
+    stats: {   platform: "PyPI",type: "Open Source CLI Tool", availability: "Global",install: "pip install snapfold"},
+  },
+  {
+    id: 5,
+    title: "VideoRAG",
+    subtitle: "Multimodal Video Question Answering System",
+    description:
+      "Built a multimodal Retrieval-Augmented Generation (RAG) system for video understanding that enables users to chat with videos. Integrated Whisper for ASR, SentenceTransformers + FAISS for retrieval, YOLOv8 for visual reasoning, and a custom-trained ViD-GAN encoder using contrastive learning (InfoNCE) for improved retrieval accuracy (0.812).",
+    tags: ["Python", "RAG", "FAISS", "Whisper", "YOLOv8", "PyTorch", "Transformers", "Deep Learning"],
+    github: "https://github.com/nandakrishnan1311/VideoRAG",
+    live: "https://huggingface.co/nandakrishnan1311/ViD-GAN-Encoder",
+    image: null,
+    featured: false,
+    accentColor: "#FF9F43",
+    stats: { saccuracy: "81.2%", latency: "~2.1s/query", dataset: "15 videos" },
+  },
+  {
+    id: 6,
+    title: "InvoiceAI — Automated Bill & Invoice Intelligence System",
+    subtitle: "End-to-End Invoice Intelligence Platform using OCR, Multi-Model AI, and Automated Reporting Systems",
+    description:
+      "A production-grade, end-to-end invoice automation system with AI-powered extraction, OCR processing, multi-provider AI support, SQLite storage, Excel reporting, and a professional React dashboard.",
+    tags: ["React","Python", "FastAPI",  "SQLite","HuggingFace Inference API",  "Google Gemini 2.0 Flash", "OpenAI GPT-4o-mini", "Prompt Engineering"],
+    github: "https://github.com/nandakrishnan1311/invoice-ai-system",
+    live: "https://youtu.be/CSJ6YdFZabY",
+    image: null,
+    featured: false,
+    accentColor: "#48DBFB",
+    stats: { accuracy: "100%", invoices_processed: "9 real invoices", ai_providers: "3 supported" },
+  },
+];

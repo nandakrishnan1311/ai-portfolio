@@ -1,0 +1,41 @@
+/* ── AI THEME ─────────────────────────────────────────────────────────────── */
+:root {
+  /* Backgrounds */
+  --bg-primary:    #080B11;
+  --bg-secondary:  #0D1117;
+  --bg-card:       #0F1520;
+  --bg-card-hover: #141C2A;
+  --bg-glass:      rgba(15, 21, 32, 0.7);
+
+  /* Accents */
+  --accent-green:  #00FFB2;
+  --accent-purple: #7B61FF;
+  --accent-red:    #FF6B6B;
+  --accent-yellow: #FFD93D;
+  --accent-blue:   #48DBFB;
+
+  /* Text */
+  --text-primary:  #E8EDF5;
+  --text-secondary:#8892A4;
+  --text-dim:      #4A5568;
+
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.06);
+  --border-bright: rgba(0, 255, 178, 0.2);
+
+  /* Typography */
+  --font-display:  'Syne', sans-serif;
+  --font-mono:     'Space Mono', monospace;
+  --font-body:     'Inter', sans-serif;
+
+  /* Shadows */
+  --shadow-glow-green:  0 0 40px rgba(0, 255, 178, 0.15);
+  --shadow-glow-purple: 0 0 40px rgba(123, 97, 255, 0.15);
+  --shadow-card:        0 20px 60px rgba(0, 0, 0, 0.5);
+
+  /* Misc */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
