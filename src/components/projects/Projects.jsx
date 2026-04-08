@@ -53,7 +53,7 @@ export default function Projects() {
             fontSize: '0.8rem', marginBottom: 20 }}>
             — more on GitHub —
           </p>
-          <a href="https://github.com/alexchen-ai"
+          <a href="https://github.com/nandakrishnan1311"
             target="_blank" rel="noopener noreferrer"
             className="btn btn-primary">
             View GitHub Profile ↗
