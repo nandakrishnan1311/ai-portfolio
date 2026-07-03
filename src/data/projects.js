@@ -50,7 +50,7 @@ export const projects = [
       "Snapfold is a lightweight CLI tool that snapshots your entire project folder into a single structured .txt file — including folder tree and source code — making it easy to share, review, or debug projects.",
     tags: ["Python", "CLI Tool", "Automation", "File System", "Developer Tools", "Open Source", "PyPI", "Packaging"],
     github: "https://github.com/nandakrishnan1311/snapfold",
-    live: null,
+    live: "https://youtu.be/M9sTXgK2SKM?si=1_cJwDG97tdrsvU4",
     image: null,
     featured: false,
     accentColor: "#FFD93D",
